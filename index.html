@@ -9,7 +9,13 @@
         .container { max-width: 800px; margin: auto; padding: 20px; }
         header { text-align: center; margin-bottom: 50px; }
         h1, h2 { margin: 10px 0; }
-        .headshot { width: 150px; height: 150px; border-radius: 50%; margin: 20px auto; }
+        .headshot { 
+            width: 150px; 
+            height: auto; 
+            border-radius: 50%; 
+            margin: 20px auto; 
+            display: block; /* Ensures the image is block level so margin auto works */
+        }
         p { line-height: 1.6; }
         .section { margin-bottom: 30px; }
         .skills, .education { list-style-type: none; margin: 0; padding: 0; }
@@ -55,3 +61,4 @@
     </div>
 </body>
 </html>
+
